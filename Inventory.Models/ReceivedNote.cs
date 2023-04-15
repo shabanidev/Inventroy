@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inventory.Models
 {
-    public class RecivedNote
+    public class ReceivedNote
     {
         public int Id { get; set; }
 
@@ -19,9 +19,8 @@ namespace Inventory.Models
         public int VendorNumber { get; set; }
         public int VendorInvoiceNumber { get; set; }
 
-        public int WarehouseId { get; set; } 
+        public int WarehouseId { get; set; }
 
         public bool IsFullReceive { get; set; }
-
     }
 }
